@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2EDBFD572D796BEB00663C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDBFD382D796BE700663C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDBFD3F2D796BE700663C01;
+			remoteInfo = AssetoneDemo;
+		};
+		2EDBFD612D796BEB00663C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDBFD382D796BE700663C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDBFD3F2D796BE700663C01;
+			remoteInfo = AssetoneDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EDBFD402D796BE700663C01 /* AssetoneDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetoneDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDBFD562D796BEB00663C01 /* AssetoneDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetoneDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDBFD602D796BEB00663C01 /* AssetoneDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetoneDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2EDBFD682D796BEB00663C01 /* Exceptions for "AssetoneDemo" folder in "AssetoneDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2EDBFD3F2D796BE700663C01 /* AssetoneDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EDBFD422D796BE700663C01 /* AssetoneDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2EDBFD682D796BEB00663C01 /* Exceptions for "AssetoneDemo" folder in "AssetoneDemo" target */,
+			);
+			path = AssetoneDemo;
+			sourceTree = "<group>";
+		};
+		2EDBFD592D796BEB00663C01 /* AssetoneDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AssetoneDemoTests;
+			sourceTree = "<group>";
+		};
+		2EDBFD632D796BEB00663C01 /* AssetoneDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AssetoneDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EDBFD3D2D796BE700663C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD532D796BEB00663C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD5D2D796BEB00663C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDBFD372D796BE700663C01 = {
+			isa = PBXGroup;
+			children = (
+				2EDBFD422D796BE700663C01 /* AssetoneDemo */,
+				2EDBFD592D796BEB00663C01 /* AssetoneDemoTests */,
+				2EDBFD632D796BEB00663C01 /* AssetoneDemoUITests */,
+				2EDBFD412D796BE700663C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EDBFD412D796BE700663C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EDBFD402D796BE700663C01 /* AssetoneDemo.app */,
+				2EDBFD562D796BEB00663C01 /* AssetoneDemoTests.xctest */,
+				2EDBFD602D796BEB00663C01 /* AssetoneDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EDBFD3F2D796BE700663C01 /* AssetoneDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDBFD692D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemo" */;
+			buildPhases = (
+				2EDBFD3C2D796BE700663C01 /* Sources */,
+				2EDBFD3D2D796BE700663C01 /* Frameworks */,
+				2EDBFD3E2D796BE700663C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2EDBFD422D796BE700663C01 /* AssetoneDemo */,
+			);
+			name = AssetoneDemo;
+			packageProductDependencies = (
+			);
+			productName = AssetoneDemo;
+			productReference = 2EDBFD402D796BE700663C01 /* AssetoneDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EDBFD552D796BEB00663C01 /* AssetoneDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDBFD6E2D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemoTests" */;
+			buildPhases = (
+				2EDBFD522D796BEB00663C01 /* Sources */,
+				2EDBFD532D796BEB00663C01 /* Frameworks */,
+				2EDBFD542D796BEB00663C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDBFD582D796BEB00663C01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EDBFD592D796BEB00663C01 /* AssetoneDemoTests */,
+			);
+			name = AssetoneDemoTests;
+			packageProductDependencies = (
+			);
+			productName = AssetoneDemoTests;
+			productReference = 2EDBFD562D796BEB00663C01 /* AssetoneDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EDBFD5F2D796BEB00663C01 /* AssetoneDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDBFD712D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemoUITests" */;
+			buildPhases = (
+				2EDBFD5C2D796BEB00663C01 /* Sources */,
+				2EDBFD5D2D796BEB00663C01 /* Frameworks */,
+				2EDBFD5E2D796BEB00663C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDBFD622D796BEB00663C01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EDBFD632D796BEB00663C01 /* AssetoneDemoUITests */,
+			);
+			name = AssetoneDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = AssetoneDemoUITests;
+			productReference = 2EDBFD602D796BEB00663C01 /* AssetoneDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EDBFD382D796BE700663C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2EDBFD3F2D796BE700663C01 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2EDBFD552D796BEB00663C01 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2EDBFD3F2D796BE700663C01;
+					};
+					2EDBFD5F2D796BEB00663C01 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2EDBFD3F2D796BE700663C01;
+					};
+				};
+			};
+			buildConfigurationList = 2EDBFD3B2D796BE700663C01 /* Build configuration list for PBXProject "AssetoneDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EDBFD372D796BE700663C01;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2EDBFD412D796BE700663C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EDBFD3F2D796BE700663C01 /* AssetoneDemo */,
+				2EDBFD552D796BEB00663C01 /* AssetoneDemoTests */,
+				2EDBFD5F2D796BEB00663C01 /* AssetoneDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EDBFD3E2D796BE700663C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD542D796BEB00663C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD5E2D796BEB00663C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EDBFD3C2D796BE700663C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD522D796BEB00663C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDBFD5C2D796BEB00663C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EDBFD582D796BEB00663C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDBFD3F2D796BE700663C01 /* AssetoneDemo */;
+			targetProxy = 2EDBFD572D796BEB00663C01 /* PBXContainerItemProxy */;
+		};
+		2EDBFD622D796BEB00663C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDBFD3F2D796BE700663C01 /* AssetoneDemo */;
+			targetProxy = 2EDBFD612D796BEB00663C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EDBFD6A2D796BEB00663C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssetoneDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EDBFD6B2D796BEB00663C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssetoneDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EDBFD6C2D796BEB00663C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EDBFD6D2D796BEB00663C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EDBFD6F2D796BEB00663C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetoneDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssetoneDemo";
+			};
+			name = Debug;
+		};
+		2EDBFD702D796BEB00663C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetoneDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssetoneDemo";
+			};
+			name = Release;
+		};
+		2EDBFD722D796BEB00663C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssetoneDemo;
+			};
+			name = Debug;
+		};
+		2EDBFD732D796BEB00663C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT5QXN85VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unittest.AssetoneDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssetoneDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EDBFD3B2D796BE700663C01 /* Build configuration list for PBXProject "AssetoneDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDBFD6C2D796BEB00663C01 /* Debug */,
+				2EDBFD6D2D796BEB00663C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDBFD692D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDBFD6A2D796BEB00663C01 /* Debug */,
+				2EDBFD6B2D796BEB00663C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDBFD6E2D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDBFD6F2D796BEB00663C01 /* Debug */,
+				2EDBFD702D796BEB00663C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDBFD712D796BEB00663C01 /* Build configuration list for PBXNativeTarget "AssetoneDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDBFD722D796BEB00663C01 /* Debug */,
+				2EDBFD732D796BEB00663C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EDBFD382D796BE700663C01 /* Project object */;
+}
